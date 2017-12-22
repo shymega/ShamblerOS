@@ -40,3 +40,5 @@ components..
     * Linux kernel emulation sublayer.
     * FreeBSD emulation sublayer.
   * Translate 'foreign' syscalls to native syscalls for shyOS.
+
+[rust]: https://www.rust-lang.org
