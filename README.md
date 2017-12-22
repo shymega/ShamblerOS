@@ -34,7 +34,10 @@ components..
         tested.
 
 - POSIX emulation layer
-  This is to provide compatibility
+
+  This is to provide compatibility to other OSes, which may not
+  necessarily conform to shyOS's conventions.
+
   * Sublayers - these provide extensions to the 'root' POSIX
     emulation layer.
     * Linux kernel emulation sublayer.
