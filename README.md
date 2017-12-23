@@ -4,8 +4,8 @@ shyOS is my (@shymega) personal attempt at creating a hobby operating
 system with my own take on how an OS should be like.
 
 shyOS takes from decades of computer science research, learns from the
-best, and crafts it into the operating system.  system that might, or
-might not take off. Only the future will tell..
+best, and crafts it into the operating system that might, or might not
+take off.
 
 shyOS is _not_ like Linux, which is a monolithic kernel with
 dynamically-loadable modules. It bears a closer resemblance to MINIX,
