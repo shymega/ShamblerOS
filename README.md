@@ -42,4 +42,11 @@ components..
     * FreeBSD emulation sublayer.
   * Translate 'foreign' syscalls to native syscalls for shyOS.
 
+- Filesystem:
+  * Distributed <-- like Plan 9..?
+  * Choice of *type* of filesystem.
+    The kernel will **not** care what type of filesystem (hierarchical
+    vs. non-hierarchical design), as long as it can operate within the
+    realms of the selected filesystem.
+
 [rust]: https://www.rust-lang.org
