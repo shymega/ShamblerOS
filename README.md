@@ -15,6 +15,10 @@ components..
 
 ## Feature outline:
 
+Worth noting: shyOS is **NOT** designed to be a `Unix-like`/POSIX
+operating system. I (@shymega) am not intending to advertise shyOS as
+such. Consider shyOS to be a progressive experiment.
+
 ### Core system.
 
 - Microkernel (w/ potential VM, like Inferno)
