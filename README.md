@@ -14,9 +14,11 @@ programming language, with *some* exceptions for low-level components.
 
 ## Feature outline:
 
-Worth noting: shyOS is **NOT** designed to be a `Unix-like`/POSIX
-operating system. I (@shymega) am not intending to advertise shyOS as
-such. Consider shyOS to be a progressive experiment.
+Worth noting: shyOS is **NOT** designed to be a Unix-like/POSIX
+operating system.
+
+I (@shymega) am not intending to advertise shyOS as such. Consider
+shyOS to be an experiment in the field of OS development.
 
 ### Core system.
 
