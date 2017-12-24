@@ -1,7 +1,7 @@
 # shyOS
 
-shyOS is my (@shymega) personal attempt at creating a hobby operating
-system with my own take on how an OS should be like.
+shyOS is my ([@shymega][shymega]) personal attempt at creating a hobby
+operating system with my own take on how an OS should be like.
 
 shyOS takes from decades of computer science research, learns from the
 best, and crafts it into the operating system that might, or might not
@@ -53,4 +53,5 @@ such. Consider shyOS to be a progressive experiment.
     vs. non-hierarchical design), as long as it can operate within the
     realms of the selected filesystem.
 
+[shymega]: https://github.com/shymega
 [rust]: https://www.rust-lang.org
