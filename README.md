@@ -10,8 +10,7 @@ take off.
 shyOS is _not_ like Linux, which is a monolithic kernel with
 dynamically-loadable modules. It bears a closer resemblance to MINIX,
 Plan 9 and Inferno, but written in [Rust][rust], a thread-safe systems
-programming language, with *some* exceptions for low-level
-components..
+programming language, with *some* exceptions for low-level components.
 
 ## Feature outline:
 
