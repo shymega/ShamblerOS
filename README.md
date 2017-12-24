@@ -51,8 +51,8 @@ shyOS to be an experiment in the field of OS development.
   * Distributed <-- like Plan 9..?
   * Choice of *type* of filesystem.
     The kernel will **not** care what type of filesystem (hierarchical
-    vs. non-hierarchical design), as long as it can operate within the
-    realms of the selected filesystem.
+    vs. non-hierarchical design), as long as it can operate normally,
+    *whichever* type of filesystem is selected.
 
 [shymega]: https://github.com/shymega
 [rust]: https://www.rust-lang.org
