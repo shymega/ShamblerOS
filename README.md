@@ -52,7 +52,8 @@ shyOS to be an experiment in the field of OS development.
   * Choice of *type* of filesystem.
     The kernel will **not** care what type of filesystem (hierarchical
     vs. non-hierarchical design), as long as it can operate normally,
-    *whichever* type of filesystem is selected.
+    *whichever* type of filesystem is selected. Generic abstractions
+    over the FS API will help with this.
 
 [shymega]: https://github.com/shymega
 [rust]: https://www.rust-lang.org
