@@ -48,7 +48,7 @@ shyOS to be an experiment in the field of OS development.
   * Translate 'foreign' syscalls to native syscalls for shyOS.
 
 - Filesystem:
-  * Distributed <-- like Plan 9..?
+  * Distributed FS -- like Plan 9's design?
   * Choice of *type* of filesystem.
     The kernel will **not** care what type of filesystem (hierarchical
     vs. non-hierarchical design), as long as it can operate normally,
