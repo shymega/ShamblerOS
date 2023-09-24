@@ -1,16 +1,16 @@
-# shyOS
+# ShamblerOS
 
-shyOS is my ([@shymega][shymega]) personal attempt at creating a hobby
+ShamblerOS is my ([@shymega][shymega]) personal attempt at creating a hobby
 operating system with my own take on how an OS should be like.
 
-shyOS is _not_ like Linux, which is a monolithic kernel with
+ShamblerOS is _not_ like Linux, which is a monolithic kernel with
 dynamically-loadable modules. It bears a closer resemblance to MINIX,
 Plan 9 and Inferno, but written in [Rust][rust], a thread-safe systems
 programming language, with *some* exceptions for low-level components.
 
 ## Feature outline:
 
-Worth noting: shyOS is **NOT** designed to be a Unix-like/POSIX
+Worth noting: ShamblerOS is **NOT** designed to be a Unix-like/POSIX
 operating system.
 
 ### Core system.
@@ -30,13 +30,13 @@ operating system.
 - POSIX emulation layer
 
   This is to provide compatibility to other OSes, which may not
-  necessarily conform to shyOS's conventions.
+  necessarily conform to ShamblerOS's conventions.
 
   * Sublayers - these provide extensions to the 'root' POSIX
     emulation layer.
     * Linux kernel emulation sublayer.
     * FreeBSD emulation sublayer.
-  * Translate 'foreign' syscalls to native syscalls for shyOS.
+  * Translate 'foreign' syscalls to native syscalls for ShamblerOS.
 
   Worth noting: this will (probably) cause a noticeable slow down.
 
